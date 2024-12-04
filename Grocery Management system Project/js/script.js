@@ -9,12 +9,12 @@ document.querySelector('#search-btn').onclick = ()   =>{
 
 let shoppingcart = document.querySelector('.shopping-cart');
 
-document.querySelector('#cart-btn').onclick = ()   =>{
-    shoppingcart.classList.toggle('active');
-    searchform.classList.remove('active');
-    loginform.classList.remove('active');
-    navbar.classList.remove('active');
-}
+// document.querySelector('#cart-btn').onclick = ()   =>{
+//     shoppingcart.classList.toggle('active');
+//     searchform.classList.remove('active');
+//     loginform.classList.remove('active');
+//     navbar.classList.remove('active');
+// }
 
 let loginform = document.querySelector('.login-form');
 
